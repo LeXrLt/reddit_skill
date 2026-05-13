@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Saved posts output
+saved_posts/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment variables
+.env
+.env.*
+
+# Logs
+*.log
