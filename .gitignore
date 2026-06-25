@@ -1,12 +1,46 @@
-# Dependencies
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+build/
+dist/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Node dependencies
 node_modules/
+.npm/
+.pnp/
+.pnp.*
+.yarn/
+
+# Lock files (optional, uncomment if you don't want to track them)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
 
 # Saved posts output
 saved_posts/
 
 # OS files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
 Thumbs.db
+ehthumbs.db
+Desktop.ini
 
 # Editor / IDE
 .vscode/
@@ -14,10 +48,35 @@ Thumbs.db
 *.swp
 *.swo
 *~
+*.sublime-workspace
+*.sublime-project
+
+# AI assistant / tooling
+.windsurf/
+.cursor/
+.devin/
 
 # Environment variables
 .env
 .env.*
+!.env.example
 
 # Logs
 *.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Caches and temp files
+.cache/
+tmp/
+temp/
+*.tmp
+
+# Coverage / test output
+coverage/
+.nyc_output/
+.coverage
+.coverage.*
+htmlcov/
